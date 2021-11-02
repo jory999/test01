@@ -6,7 +6,7 @@
 #include "x86.h"
 #include "proc.h"
 #include "spinlock.h"
-//aaa bbb cccccc
+//aaa bbb ccc
 struct {
   struct spinlock lock;
   struct proc proc[NPROC];
